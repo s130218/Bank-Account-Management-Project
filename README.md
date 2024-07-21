@@ -1,10 +1,28 @@
 Bank Account Management API:
+This project is a comprehensive Bank Account Management Application with a well-organized structure for both frontend and backend components. The frontend is developed using ASP.NET Core MVC, ensuring a robust and responsive user interface, while the backend is built with ASP.NET Core Web API, handling the core business logic and database operations efficiently. The application includes various APIs for authentication, authorization, and transaction management.
+
+Features
+User account creation
+Admin account activation
+Deposit and withdrawal transactions
+Transaction history viewing
+JWT Authentication for secure access
+
+
+Technologies Used
+ASP.NET Core MVC (Frontend)
+ASP.NET Core Web API (Backend)
+Entity Framework Core
+SQL Server
+JWT for authentication
+
 
 Fixed Roles: 
 Customer
 Admin
 SuperAdmin
 
+API Endpoints:
 For User Registrartion: 
 API: v1/auth/register
 Method: POST
@@ -26,8 +44,6 @@ Response:
 }
 
 
-
-
 For User Login: 
 API: v1/auth/login
 Method:POST
@@ -36,6 +52,7 @@ Request Body:
   "username": "string",
   "password": "string"
 }
+
 
 Response
 {
