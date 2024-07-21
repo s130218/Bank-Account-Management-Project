@@ -1,0 +1,35 @@
+﻿@model AccountManagement.Web.Models.DTO.Account.AccountDto
+
+<div class="container">
+    <h2>Create New Account</h2>
+    <form asp-controller="Account" asp-action="Register" method="post" class="needs-validation" novalidate>
+
+        <div class="form-group">
+            <label asp-for="Name">Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="PhoneNumber">PhoneNumber</label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="TotalAmount">TotalAmount</label>
+            <input asp-for="TotalAmount" class="form-control" />
+            <span asp-validation-for="TotalAmount" class="text-danger"></span>
+        </div>
+        <br />
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>
+
+

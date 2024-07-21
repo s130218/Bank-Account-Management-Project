@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/4K5Hg/dmoYgbaK2idrn6dLg9f8Oq2TqyuxX3OoPbR4ofnA7UKYvsMV4mCgHBBT9xHCgBAsCcUBLX1n/mGL+8Q==",
+  "success": true,
+  "projectFilePath": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\AccountManagement.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\youke\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A872F30-42A8-4D19-BABE-CB2ABB117452}|Account.AuthAPI\\AccountManagement.API.csproj|d:\\youkesh\\.net projects\\project\\bankaccountmanagementapp\\account.authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A872F30-42A8-4D19-BABE-CB2ABB117452}|Account.AuthAPI\\AccountManagement.API.csproj|solutionrelative:account.authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A872F30-42A8-4D19-BABE-CB2ABB117452}|Account.AuthAPI\\AccountManagement.API.csproj|d:\\youkesh\\.net projects\\project\\bankaccountmanagementapp\\account.authapi\\controllers\\statementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A872F30-42A8-4D19-BABE-CB2ABB117452}|Account.AuthAPI\\AccountManagement.API.csproj|solutionrelative:account.authapi\\controllers\\statementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A872F30-42A8-4D19-BABE-CB2ABB117452}|Account.AuthAPI\\AccountManagement.API.csproj|d:\\youkesh\\.net projects\\project\\bankaccountmanagementapp\\account.authapi\\controllers\\accountmanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A872F30-42A8-4D19-BABE-CB2ABB117452}|Account.AuthAPI\\AccountManagement.API.csproj|solutionrelative:account.authapi\\controllers\\accountmanagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A872F30-42A8-4D19-BABE-CB2ABB117452}|Account.AuthAPI\\AccountManagement.API.csproj|d:\\youkesh\\.net projects\\project\\bankaccountmanagementapp\\account.authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A872F30-42A8-4D19-BABE-CB2ABB117452}|Account.AuthAPI\\AccountManagement.API.csproj|solutionrelative:account.authapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDAE160-BB2C-47F9-AD13-E9159EF49402}|AccountManage.Web\\AccountManagement.Web.csproj|d:\\youkesh\\.net projects\\project\\bankaccountmanagementapp\\accountmanage.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0DDAE160-BB2C-47F9-AD13-E9159EF49402}|AccountManage.Web\\AccountManagement.Web.csproj|solutionrelative:accountmanage.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDAE160-BB2C-47F9-AD13-E9159EF49402}|AccountManage.Web\\AccountManagement.Web.csproj|d:\\youkesh\\.net projects\\project\\bankaccountmanagementapp\\accountmanage.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDAE160-BB2C-47F9-AD13-E9159EF49402}|AccountManage.Web\\AccountManagement.Web.csproj|solutionrelative:accountmanage.web\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDAE160-BB2C-47F9-AD13-E9159EF49402}|AccountManage.Web\\AccountManagement.Web.csproj|d:\\youkesh\\.net projects\\project\\bankaccountmanagementapp\\accountmanage.web\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDAE160-BB2C-47F9-AD13-E9159EF49402}|AccountManage.Web\\AccountManagement.Web.csproj|solutionrelative:accountmanage.web\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DDAE160-BB2C-47F9-AD13-E9159EF49402}|AccountManage.Web\\AccountManagement.Web.csproj|d:\\youkesh\\.net projects\\project\\bankaccountmanagementapp\\accountmanage.web\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DDAE160-BB2C-47F9-AD13-E9159EF49402}|AccountManage.Web\\AccountManagement.Web.csproj|solutionrelative:accountmanage.web\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountManageController.cs",
+              "DocumentMoniker": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\Account.AuthAPI\\Controllers\\AccountManageController.cs",
+              "RelativeDocumentMoniker": "Account.AuthAPI\\Controllers\\AccountManageController.cs",
+              "ToolTip": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\Account.AuthAPI\\Controllers\\AccountManageController.cs",
+              "RelativeToolTip": "Account.AuthAPI\\Controllers\\AccountManageController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAYwDUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T11:49:01.69Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "AccountManage.Web\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "AccountManage.Web\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwEAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:21:22.259Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\Account.AuthAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "Account.AuthAPI\\appsettings.json",
+              "ToolTip": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\Account.AuthAPI\\appsettings.json",
+              "RelativeToolTip": "Account.AuthAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-21T15:10:31.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatementController.cs",
+              "DocumentMoniker": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\Account.AuthAPI\\Controllers\\StatementController.cs",
+              "RelativeDocumentMoniker": "Account.AuthAPI\\Controllers\\StatementController.cs",
+              "ToolTip": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\Account.AuthAPI\\Controllers\\StatementController.cs",
+              "RelativeToolTip": "Account.AuthAPI\\Controllers\\StatementController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T13:21:05.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AccountManage.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AccountManage.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T13:15:47.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\Service\\IAuthService.cs",
+              "RelativeDocumentMoniker": "AccountManage.Web\\Service\\IAuthService.cs",
+              "ToolTip": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\Service\\IAuthService.cs",
+              "RelativeToolTip": "AccountManage.Web\\Service\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T13:13:37.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "AccountManage.Web\\Service\\AuthService.cs",
+              "ToolTip": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\AccountManage.Web\\Service\\AuthService.cs",
+              "RelativeToolTip": "AccountManage.Web\\Service\\AuthService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAWwDIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T13:12:25.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\Account.AuthAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Account.AuthAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Youkesh\\.NET Projects\\Project\\BankAccountManagementApp\\Account.AuthAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Account.AuthAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwC0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T12:21:22.223Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
