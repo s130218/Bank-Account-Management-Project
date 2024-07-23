@@ -4,6 +4,7 @@ using Account.AuthAPI.Service.Common;
 using BankAccountAPI.DTO;
 using BankAccountAPI.Services.Service;
 using System.Collections.Generic;
+using System.Security.Claims;
 
 namespace BankAccountAPI.Factory
 {
@@ -17,7 +18,7 @@ namespace BankAccountAPI.Factory
         /// <summary>
         /// 
         /// </summary>
-        public AccountFactory(IAccountService accountService, IAccountRepository accountRepository)
+        public AccountFactory(IAccountService accountService, IAccountRepository accountRepository, IHttpContextAccessor httpContextAccessor)
         {
             _accountService = accountService;
             _accountRepository = accountRepository;

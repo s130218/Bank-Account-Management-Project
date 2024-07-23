@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Microsoft.Identity.Client;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Account.AuthAPI.Models.BankAccount
 {
@@ -8,6 +9,7 @@ namespace Account.AuthAPI.Models.BankAccount
     {
         public int Id { get; set; }
 
+        public string UserId {  get; set; }
         public string AccountNumber { get; set; }
 
         public string Name { get; set; }

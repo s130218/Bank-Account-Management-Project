@@ -1,7 +1,6 @@
-﻿using AccountManagement.API.Enum;
-using static AccountManagement.API.Enum.TransactionType;
+﻿using AccountManage.Web.Enum;
 
-namespace BankAccountAPI.DTO
+namespace AccountManagement.Web.Models.DTO.Statement
 {
     public class StatementDto
     {
@@ -13,7 +12,7 @@ namespace BankAccountAPI.DTO
 
         public TransactionTypeEnum TransactionType { get; set; }
 
-        public string? Description { get; set; }
+        public string Description { get; set; }
 
         public DateTime CreatedDate { get; set; }
     }

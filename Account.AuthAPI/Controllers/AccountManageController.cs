@@ -28,7 +28,6 @@ namespace BankAccountAPI.Controllers
 
         [Route("account")]
         [HttpGet]
-        [Authorize(Policy = AuthorizePolicy.AdminRole)]
         public async Task<ActionResult> GetAllCustomerAccountAsync()
         {
             var result = await _accountService.GetAllAsync().ConfigureAwait(false);

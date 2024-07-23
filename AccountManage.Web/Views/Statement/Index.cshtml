@@ -1,0 +1,43 @@
+﻿@using AccountManage.Web.Enum
+@model IEnumerable<AccountManagement.Web.Models.DTO.Statement.StatementDto>
+
+@{
+    var transactionTypeMap = new Dictionary<TransactionTypeEnum, string>
+    {
+        { TransactionTypeEnum.DEPOSIT, "Deposit" },
+        { TransactionTypeEnum.WITHDRAW, "Withdraw" }
+    };
+}
+
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="container py-5">
+    <div class="card">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead class="table-info">
+                        <tr>
+                            <th>Amount</th>
+                            <th>Transaction Type</th>
+                            <th>Description</th>
+                            <th>TransactionDateTime</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@Html.DisplayFor(modelItem => item.Amount)</td>
+                                <td>@Html.DisplayFor(modelItem => item.TransactionType)</td>
+                                <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                <td>@Html.DisplayFor(modelItem => item.CreatedDate)</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

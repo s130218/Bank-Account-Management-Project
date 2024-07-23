@@ -3,6 +3,7 @@ using Account.AuthAPI.Service.Common;
 using AccountManagement.API.Services.StatementService;
 using BankAccountAPI.DTO;
 using BankAccountAPI.Model;
+using System.Collections.Generic;
 using static AccountManagement.API.Enum.TransactionType;
 
 namespace AccountManagement.API.Factory
@@ -31,11 +32,11 @@ namespace AccountManagement.API.Factory
         }
 
 
-        public List<StatementDto> MapAndGetCustomerStatement(List<Statement> entities)
+        public ServiceResult<List<StatementDto>> MapAndGetCustomerStatement(List<Statement> entities)
         {
             if (entities == null || entities.Count == 0)
             {
-                return new List<StatementDto>();
+                return new ServiceResult<List<StatementDto>>(true);
             }
 
             var results = new List<StatementDto>();
@@ -48,12 +49,13 @@ namespace AccountManagement.API.Factory
                     AccountId = entity.AccountId,
                     Amount = entity.Amount,
                     TransactionType = (TransactionTypeEnum)entity.TransactionType,
-                    Description = entity.Description
+                    Description = entity.Description,
+                    CreatedDate = entity.CreatedOn
                 };
                 results.Add(result);
             }
 
-            return results;
+            return ServiceResult<List<StatementDto>>.Success(results);
         }
 
         private Statement MapToEntity(StatementDto dto, Statement entity)

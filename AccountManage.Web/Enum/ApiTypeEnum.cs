@@ -13,4 +13,10 @@
         INACTIVE = 0,
         ACTIVE = 1
     }
+
+    public enum TransactionTypeEnum
+    {
+        DEPOSIT = 1,
+        WITHDRAW = 2,
+    }
 }

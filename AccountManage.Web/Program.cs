@@ -17,6 +17,8 @@ builder.Services.AddTransient<IAuthService, AuthService>();
 
 builder.Services.AddScoped<IBaseService, BaseService>();
 builder.Services.AddScoped<IAccountService, AccountService>();
+builder.Services.AddScoped<IStatementService, StatementService>();
+
 
 
 var app = builder.Build();

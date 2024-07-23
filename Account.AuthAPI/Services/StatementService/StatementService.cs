@@ -6,6 +6,8 @@ using AccountManagement.API.Repository.BankAccountRepository;
 using BankAccountAPI.Model;
 using BankAccountAPI.Services.Service;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Security.Claims;
 using static AccountManagement.API.Enum.TransactionType;
 
 namespace AccountManagement.API.Services.StatementService
@@ -19,21 +21,31 @@ namespace AccountManagement.API.Services.StatementService
         private readonly IStatementRepository _statementRepository;
         private readonly IAccountService _accountService;
         private readonly IAccountRepository _accountRepository;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public StatementService(IUnitOfWork unitofWork, IStatementRepository statementRepository, IAccountService accountService, IAccountRepository accountRepository)
+        public StatementService(IUnitOfWork unitofWork, IStatementRepository statementRepository, IAccountService accountService, IAccountRepository accountRepository, IHttpContextAccessor httpContextAccessor)
         {
             _unitofWork = unitofWork;
             _statementRepository = statementRepository;
             _accountService = accountService;
             _accountRepository = accountRepository;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         #endregion
 
 
-        public async Task<ServiceResult<List<Statement>>> GetAllStatementByAccountIdAsync(int accountId)
+        public async Task<ServiceResult<List<Statement>>> GetAllStatementByAccountIdAsync()
         {
-            var resp = await _statementRepository.Table.Where(x => x.AccountId == accountId).ToListAsync();
+            var userId = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            var customerAccount = await _accountRepository.Table.Where(x => x.UserId == userId).FirstOrDefaultAsync();
+
+            if (customerAccount == null)
+            {
+                return ServiceResult<List<Statement>>.Fail("Account not found");
+            }
+            var resp = await _statementRepository.Table.Where(x => x.AccountId == customerAccount.Id).ToListAsync();
 
             if (!resp.Any())
                 return ServiceResult<List<Statement>>.Fail("RecordNotFound");
@@ -44,9 +56,18 @@ namespace AccountManagement.API.Services.StatementService
         public async Task<ServiceResult<Statement>> AddStatementAsync(Statement entity)
         {
             if (entity == null)
-                return ServiceResult<Statement>.Fail("RecordNotFound");
+                return ServiceResult<Statement>.Fail("Record not found");
 
-            var customerAccount = await _accountRepository.GetByIdAsync(entity.AccountId);
+            var userId = _httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+            var customerAccount = await _accountRepository.Table.Where(x => x.UserId == userId).FirstOrDefaultAsync();
+
+            if (customerAccount == null)
+            {
+                return ServiceResult<Statement>.Fail("Account not found");
+            }
+
+            entity.AccountId = customerAccount.Id;
 
             if ((TransactionTypeEnum)entity.TransactionType == TransactionTypeEnum.DEPOSIT)
             {
@@ -60,8 +81,6 @@ namespace AccountManagement.API.Services.StatementService
                 }
                 customerAccount.TotalAmount -= (decimal)entity.Amount;
             }
-
-
             try
             {
                 await _accountService.UpdateCustomerAccountAsync(customerAccount).ConfigureAwait(false);

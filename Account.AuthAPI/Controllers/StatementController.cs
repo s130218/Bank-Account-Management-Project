@@ -21,11 +21,11 @@ namespace AccountManagement.API.Controllers
         }
 
 
-        [Route("statement/{accountId}")]
+        [Route("statement")]
         [HttpGet]
-        public async Task<ActionResult> GetStatementByAccountIdAsync(int accountId)
+        public async Task<ActionResult> GetAllStatementAsync()
         {
-            var result = await _statementService.GetAllStatementByAccountIdAsync(accountId).ConfigureAwait(false);
+            var result = await _statementService.GetAllStatementByAccountIdAsync().ConfigureAwait(false);
             var dto = _statementFactory.MapAndGetCustomerStatement(result.Data);
             return Ok(dto);
         }
@@ -33,7 +33,6 @@ namespace AccountManagement.API.Controllers
 
         [Route("statement")]
         [HttpPost]
-        [Authorize(Policy = AuthorizePolicy.AdminRole)]
         public async Task<ActionResult<ServiceResult>> DepositOrWithdrawAsync(StatementDto dto)
          => Ok(await _statementFactory.MapAndAddStatement(dto).ConfigureAwait(false));
     }

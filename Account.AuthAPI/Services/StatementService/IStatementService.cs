@@ -5,7 +5,7 @@ namespace AccountManagement.API.Services.StatementService
 {
     public interface IStatementService
     {
-        Task<ServiceResult<List<Statement>>> GetAllStatementByAccountIdAsync(int accountId);
+        Task<ServiceResult<List<Statement>>> GetAllStatementByAccountIdAsync();
 
         Task<ServiceResult<Statement>> AddStatementAsync(Statement entity);
     }

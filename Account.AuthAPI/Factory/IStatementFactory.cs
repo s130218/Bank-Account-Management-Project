@@ -6,8 +6,7 @@ namespace AccountManagement.API.Factory
 {
     public interface IStatementFactory
     {
-        List<StatementDto> MapAndGetCustomerStatement(List<Statement> entities);
-
+        ServiceResult<List<StatementDto>> MapAndGetCustomerStatement(List<Statement> entities);
         Task<ServiceResult<Statement>> MapAndAddStatement(StatementDto dto);
     }
 }

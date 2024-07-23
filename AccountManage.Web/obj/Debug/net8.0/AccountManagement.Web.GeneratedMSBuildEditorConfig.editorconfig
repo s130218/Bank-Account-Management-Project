@@ -9,67 +9,75 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AccountManagement.Web
 build_property.RootNamespace = AccountManagement.Web
-build_property.ProjectDir = D:\Youkesh\.NET Projects\Project\BankAccountManagementApp\AccountManage.Web\
+build_property.ProjectDir = D:\Code\GitHub\BankAccountManagementProject\AccountManage.Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Youkesh\.NET Projects\Project\BankAccountManagementApp\AccountManage.Web
+build_property.MSBuildProjectDirectory = D:\Code\GitHub\BankAccountManagementProject\AccountManage.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Account/Details.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Account/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Account/Edit.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Account/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Account/Index.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Account/Register.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Auth/Index.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Auth/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Auth/Login.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Auth/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Auth/Register.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Auth/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Home/Index.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Home/Privacy.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Shared/Error.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/_ViewImports.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Statement/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVtZW50XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Statement/Transaction.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGVtZW50XFRyYW5zYWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/_ViewStart.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Youkesh/.NET Projects/Project/BankAccountManagementApp/AccountManage.Web/Views/Shared/_Layout.cshtml]
+[D:/Code/GitHub/BankAccountManagementProject/AccountManage.Web/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2hn3gfd7z8
